@@ -1,0 +1,23 @@
+ <div *ngIf="dataFromChild">
+     <h3>{{ dataFromChild?.name + ' ' + dataFromChild?.gender}}</h3>
+ </div>
+
+ <div class="form-group">
+     <input type="text" class="form-control" placeholder="Search By Name" [(ngModel)]="searchTermm"/>
+ </div>
+
+ <!-- <div class="form-group">
+    <button class="btn btn-primary" (click)="changeEmployeeName();">Change Name</button>
+</div> -->
+
+ <div  *ngFor="let employee of filteredEmployees">
+    <app-display-employee [employee]="employee" (notify)="handleNotify($event);" [searchTermm]="searchTermm" (notifyDelete) ="onDeleteNotification($event)"></app-display-employee>
+
+     <!-- <div (click)="employeeDetail(employee.id)" class="pointerCursor">
+    </div> -->
+ </div> 
+
+
+ <div *ngIf="error">{{error}}</div>
+
+

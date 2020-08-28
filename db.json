@@ -1,0 +1,52 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "name": "Typescripttjjj",
+      "gender": "Female",
+      "contactPreference": "Email",
+      "email": "typescript@gmail.com",
+      "dateOfBirth": "1991/11/08",
+      "department": "1",
+      "isActive": true,
+      "phoneNumber": 1234567891,
+      "photoPath": "assets/images/typescript.png"
+    },
+    {
+      "id": 3,
+      "name": "Javascript",
+      "gender": "Male",
+      "contactPreference": "Email",
+      "email": "javascript@gmail.com",
+      "dateOfBirth": "1992/09/09",
+      "department": "4",
+      "isActive": true,
+      "phoneNumber": 1234567892,
+      "photoPath": "assets/images/javascript.png"
+    },
+    {
+      "id": 4,
+      "name": "Raju",
+      "gender": "Male",
+      "email": "raju@gmail.com",
+      "phoneNumber": "284748735",
+      "contactPreference": "Phone",
+      "dateOfBirth": "2020-01-20T18:30:00.000Z",
+      "department": "3",
+      "isActive": true,
+      "photoPath": "assets/images/angular.png"
+    },
+    {
+      "id": 5,
+      "name": "Rajuuuu9284488",
+      "gender": "Male",
+      "email": "jajjj@gmail.com",
+      "phoneNumber": "872774374873",
+      "contactPreference": "Email",
+      "dateOfBirth": "2020-01-20T18:30:00.000Z",
+      "department": "4",
+      "isActive": true,
+      "photoPath": "assets/images/angular.png"
+    }
+  ]
+}
